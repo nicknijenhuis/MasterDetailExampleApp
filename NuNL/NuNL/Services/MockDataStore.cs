@@ -78,12 +78,12 @@ namespace NuNL.Services
             items = new List<Item>();
             var _items = new List<Item>
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Buy some cat food", Description="The cats are hungry"},
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Learn F#", Description="Seems like a functional idea"},
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Learn to play guitar", Description="Noted"},
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Buy some new candles", Description="Pine and cranberry for that winter feel"},
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Complete holiday shopping", Description="Keep it a secret!"},
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Finish a todo list", Description="Done"},
+                new Item { Id = Guid.NewGuid().ToString(), Title = "Buy some cat food", Description="The cats are hungry"},
+                new Item { Id = Guid.NewGuid().ToString(), Title = "Learn F#", Description="Seems like a functional idea"},
+                new Item { Id = Guid.NewGuid().ToString(), Title = "Learn to play guitar", Description="Noted"},
+                new Item { Id = Guid.NewGuid().ToString(), Title = "Buy some new candles", Description="Pine and cranberry for that winter feel"},
+                new Item { Id = Guid.NewGuid().ToString(), Title = "Complete holiday shopping", Description="Keep it a secret!"},
+                new Item { Id = Guid.NewGuid().ToString(), Title = "Finish a todo list", Description="Done"},
             };
 
             foreach (Item item in _items)

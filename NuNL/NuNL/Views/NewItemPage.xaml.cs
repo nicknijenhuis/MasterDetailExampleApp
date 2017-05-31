@@ -16,7 +16,7 @@ namespace NuNL.Views
 
             Item = new Item
             {
-                Text = "Item name",
+                Title = "Item name",
                 Description = "This is a nice description"
             };
 
