@@ -8,10 +8,10 @@ using NuNL.Models;
 
 using Xamarin.Forms;
 
-[assembly: Dependency(typeof(NuNL.Services.MockDataStore))]
+[assembly: Dependency(typeof(NuNL.Services.NewsDataStore))]
 namespace NuNL.Services
 {
-    public class MockDataStore : IDataStore<Item>
+    public class NewsDataStore : IDataStore<Item>
     {
         bool isInitialized;
         List<Item> items;
