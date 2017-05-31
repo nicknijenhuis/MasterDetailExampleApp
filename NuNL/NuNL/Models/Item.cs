@@ -32,11 +32,11 @@ namespace NuNL.Models
             set { SetProperty(ref _pubDate, value); }
         }
 
-        private Uri _encloseUri = null;
+        private Uri _encloseUrl = null;
         public Uri EncloseUrl
         {
-            get { return _encloseUri; }
-            set { SetProperty(ref _encloseUri, value); }
+            get { return _encloseUrl; }
+            set { SetProperty(ref _encloseUrl, value); }
         }
     }
 }
