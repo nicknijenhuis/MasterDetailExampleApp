@@ -4,7 +4,7 @@
              x:Class="NuNL.Views.ItemDetailPage"
              Title="{Binding Title}">
 	<StackLayout Spacing="20" Padding="15">
-		<Label Text="{Binding Item.Text}" FontSize="Medium"/>
+		<Label Text="{Binding Item.Title}" FontSize="Medium"/>
         <Label Text="{Binding Item.Description}" FontSize="Small"/>
     </StackLayout>
 </ContentPage>
