@@ -33,7 +33,7 @@ namespace NuNL.Models
         }
 
         private Uri _encloseUri = null;
-        public Uri EncloseUri
+        public Uri EncloseUrl
         {
             get { return _encloseUri; }
             set { SetProperty(ref _encloseUri, value); }
